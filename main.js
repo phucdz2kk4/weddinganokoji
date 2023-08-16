@@ -5,7 +5,7 @@ function showInvite() {
     getModal.classList.add('open')
 }
 function closeInvite(){
-    getModal.classList.add('close')
+    getModal.classList.remove('open')
 }
     invBtn.addEventListener('click', showInvite)
     closeModal.addEventListener('click', closeInvite)
