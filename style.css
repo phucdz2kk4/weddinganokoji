@@ -280,6 +280,3 @@ p{
 .modal.modal-js.open{
     display: flex;
 }
-.modal.modal-js.close{
-    display: none;
-}
