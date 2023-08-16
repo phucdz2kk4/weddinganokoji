@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   
+}
+.header{
+    background-image: url(https://www.w3schools.com/w3images/wedding_couple.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 340px;
+    letter-spacing: 4px;
+    line-height: 1.5;
+}
+.title-edit{
+    font-weight: 550;
+    color: #fff;
+}
+h1{
+    margin: 10px 0px;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 2;
+    text-align: center;
+}
+.nav{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    box-sizing: inherit;
+    z-index: 1;
+
+}
+.nav-small{
+    display: flex;
+    text-align: center;
+    opacity: 0.75;
+    
+}
+.nav-small:hover{
+    background-color: rgb(244, 234, 100);
+    opacity: 1;
+}
+.menu{
+    opacity: 0.5;
+    width: 25%;
+    text-decoration: none;
+    color: #000;
+    padding: 16px 8px;
+    background-color: darkseagreen;
+}
+.menu:hover{
+    background-color: bisque;
+    opacity: 1;
+    color: #000;
+}
+.main-wedding, .the-wedding, #Wedding{
+    background-color:#ffdddd;
+    color: #000;
+    filter: grayscale(50%);
+
+}
+.wedding-small{
+    display: flex;
+    flex-direction: column;
+    max-width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    filter: grayscale(50%);
+}
+.wedding-title{
+    text-align: center;
+    margin: 18px 0px;
+    font-weight: 475;
+    padding-top: 70px;
+}
+.imgagee{
+    margin: 32px 0px;
+}
+#font-letter{
+    line-height: 2;
+}
+.image-wedding{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 18px 25px;
+    border-radius: 5px;
+}
+.wedding-button{
+    display: flex;
+    justify-content:space-around;
+    padding-bottom: 74px;
+    padding-top: 35px;
+}
+.image-wedding:hover{
+    background-color: #ccc;
+    color:#000;
+}
+.photos-small{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 320px;
+}
+.background-photos{
+    background-image: url(https://www.w3schools.com/w3images/flowers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+}
+.editor, .editorr{
+    font-weight: 400;
+    margin: 10px 0;
+    color: #fff;
+}
+.editor{
+    font-size: 64px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    max-width: 980px;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wow{
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.img-party{
+    margin: 64px 0;
+}
+.location-time{
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 58px;
+}
+.RSVP{
+   background-color:#ffdddd;
+   display: flex;
+   flex-direction: column;
+   padding-top: 50px;
+   align-items: center;
+   padding-bottom: 50px;
+}
+.RSVP-edit{
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 2;
+}
+.footer{
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    font-size: 18px;
+}
+.hide-small{
+    background-color: #fff;
+    margin-bottom: 49px;
+}
+.an-con{
+    color: #fff;
+    font-size: 20px;
+}
+.an-con:hover{
+    color:red;
+}
+.RSVP-modal{
+    padding: 25px 62px;
+    font-size: 20px;
+    background-color: #f44336;
+    color: #fff;
+    opacity: 0.6;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+.RSVP-modal:hover{
+    color: #000;
+    background-color: #ccc;
+}
+.edit-rsvp{
+    padding-top: 30px;
+}
+.modal{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    z-index: 3;
+}
+.modal-container{
+    background-color: #fff;
+    padding: 32px;
+    max-width: 600px;
+    width: 900px;
+}
+.modal-container:hover{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.modal-input{
+    padding: 8px;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 4px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+}
+p{
+    line-height: 2;
+    text-align: center;
+    margin: 15px;
+}
+.button-modall{
+    padding: 16px 8px;
+    display: flex;
+}
+.modal-button{
+    width: 49.99999999%;
+}
+.go, .close{
+    padding: 16px 8px;
+    width: 100%;
+    line-height: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.go{
+    background-color: purple;
+    color: #fff;
+}
+.go:hover{
+    background-color:#ccc;
+    color:#000;
+}
+.close:hover{
+    background-color: #ccc;
+    color:#000
+}
+.close{
+    background-color: pink;
+    color: #fff;
+}
+.modal.modal-js.open{
+    display: flex;
+}
+.modal.modal-js.close{
+    display: none;
+}
